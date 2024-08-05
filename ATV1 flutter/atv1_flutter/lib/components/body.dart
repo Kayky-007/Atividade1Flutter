@@ -8,8 +8,8 @@ class Body extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.fromLTRB(10, 20, 10, 0),
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.start, // Alinhamento Vertical
-        crossAxisAlignment: CrossAxisAlignment.center, // Alinhamento Horizontal
+        mainAxisAlignment: MainAxisAlignment.start, 
+        crossAxisAlignment: CrossAxisAlignment.center, 
         children: [
           Image(image: AssetImage('assets/images/tobey.jpeg')),
           Center(
@@ -52,7 +52,7 @@ class Body extends StatelessWidget {
                 icon: Icon(Icons.bookmark),
                 label: Text('Facebook'),
               ),
-              SizedBox(width: 10), // Espaçamento entre os botões
+              SizedBox(width: 10), 
               ElevatedButton.icon(
                 onPressed: () {},
                 icon: Icon(Icons.flutter_dash),
@@ -60,7 +60,7 @@ class Body extends StatelessWidget {
               ),
             ],
           ),
-          SizedBox(height: 10), // Espaçamento entre as linhas
+          SizedBox(height: 10), 
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -69,7 +69,7 @@ class Body extends StatelessWidget {
                 icon: Icon(Icons.photo_camera),
                 label: Text('Instagram'),
               ),
-              SizedBox(width: 10), // Espaçamento entre os botões
+              SizedBox(width: 10), 
               ElevatedButton.icon(
                 onPressed: () {},
                 icon: Icon(Icons.link),
